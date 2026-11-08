@@ -1,0 +1,39 @@
+* {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  border: none;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(5, 15, 30, 0.75);
+  border: 1px solid rgba(0, 229, 255, 0.6);
+  border-radius: 8px;
+  color: #00e5ff;
+}
+
+#workspaces button {
+  padding: 0 8px;
+  color: rgba(0, 229, 255, 0.4);
+  background: transparent;
+}
+
+#workspaces button.active {
+  color: #00e5ff;
+  border-bottom: 2px solid #00e5ff;
+}
+
+#clock, #language, #pulseaudio, #network {
+  padding: 0 12px;
+  color: #00e5ff;
+  text-shadow: 0 0 6px rgba(0, 229, 255, 0.8);
+}
+
+#clock {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#pulseaudio.muted, #network.disconnected {
+  color: #ff4d4d;
+}

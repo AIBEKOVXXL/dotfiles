@@ -1,0 +1,28 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 32,
+  "margin-top": 6,
+  "margin-left": 12,
+  "margin-right": 12,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["hyprland/language", "pulseaudio", "network"],
+
+  "clock": {
+    "format": "{:%H:%M  ·  %d.%m}",
+    "tooltip-format": "{:%A, %d %B %Y}"
+  },
+  "hyprland/language": {
+    "format": "{short}"
+  },
+  "pulseaudio": {
+    "format": "VOL {volume}%",
+    "format-muted": "MUTED"
+  },
+  "network": {
+    "format-wifi": "NET {signalStrength}%",
+    "format-disconnected": "OFFLINE"
+  }
+}

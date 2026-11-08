@@ -1,0 +1,6 @@
+width=600
+height=400
+prompt=SEARCH
+insensitive=true
+allow_images=true
+image_size=24
